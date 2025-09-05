@@ -113,7 +113,7 @@ const Features = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="/videos/feature-1.mp4"
           title={
             <>
               Charact<b>e</b>r Guilds
@@ -127,7 +127,7 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="row-span-1 bento-tilt_1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="/videos/feature-2.mp4"
             title={
               <>
                 Epic <b>R</b>aids
@@ -140,7 +140,7 @@ const Features = () => (
 
         <BentoTilt className="row-span-1 bento-tilt_1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="/videos/feature-3.mp4"
             title={
               <>
                 Story-dri<b>v</b>en Quests
@@ -153,7 +153,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="/videos/feature-4.mp4"
             title={
               <>
                 Custo<b>m</b>izable Avatars
@@ -176,7 +176,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="/videos/feature-5.mp4"
             loop
             muted
             autoPlay
